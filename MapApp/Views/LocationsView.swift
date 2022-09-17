@@ -38,7 +38,7 @@ struct LocationsView_Previews: PreviewProvider {
     static var previews: some View {
         LocationsView()
             .environmentObject(LocationsViewModel())
-            .previewInterfaceOrientation(.portraitUpsideDown)
+            .previewInterfaceOrientation(.portrait)
     }
 }
 
